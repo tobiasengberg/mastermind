@@ -1,0 +1,71 @@
+.feedback {
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    width: 24px;
+    margin-left: 24px;
+    justify-content: flex-start;
+}
+.activeCircle {
+    filter:
+            drop-shadow(-1px -1px 0px #aaa)
+            drop-shadow(1px -1px 0px #aaa)
+            drop-shadow(1px 1px 0px #aaa)
+            drop-shadow(-1px 1px 0px #aaa)
+}
+.blackBg {
+    background-color: #555;
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+.blackBg img {
+    object-fit: contain;
+    width: 30px;
+}
+.blackBgRight img {
+    width: 12px;
+    object-fit: contain;
+    margin-bottom: 3px;
+}
+.blackBgRight {
+
+    display: grid;
+    grid-template-columns: 15px 15px;
+    padding-bottom: 12px;
+}
+.blackBgRight > *.filled {
+    filter:
+            drop-shadow(1px 1px 1px #000)
+}
+
+#ContentArea {
+    background-color: #555;
+    padding: 50px 0 0 200px;
+    display: grid;
+    grid-template-columns: 300px 400px;
+    gap: 30px;
+}
+
+#Game {
+    display: grid;
+    grid-template-columns: 180px 50px;
+    background-color: #555;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+}
+
+#Info {
+    padding: 20px;
+    color: #777;
+}
+
+#Info h3 {
+    font-size: 30px;
+}
+
+#Info h3 span {
+    color: #aaa;
+}
