@@ -127,10 +127,15 @@ export const Game1 = () => {
     const sideContent = () => {
         return (
             <div>
+                <p>Connect with me on LinkedIn:</p>
+                <div className="padding" >
+                    <a className="link" href="https://www.linkedin.com/in/tobiasengberg/" target="_blank" rel="noreferrer">www.linkedin.com/in/tobiasengberg</a>
+                </div>
+                <p>Repository for the code:</p>
                 <div className="padding" >
                     <a className="link" href="https://github.com/Exilic/mastermind" target="_blank" rel="noreferrer">GitHub – Mastermind</a>
                 </div>
-                <p>Translated to React from an initial coding in pure JavaScript.</p>
+                <p>Translated to React from an initial coding in pure JavaScript:</p>
                 <div className="padding" >
                     <a className="link" href="https://github.com/Exilic/master-mind/blob/master/game.js" target="_blank" rel="noreferrer">GitHub – game.js</a>
                 </div>
