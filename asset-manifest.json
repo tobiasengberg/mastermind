@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mastermind/static/css/main.fa694f0b.css",
-    "main.js": "/mastermind/static/js/main.0c00b80c.js",
+    "main.js": "/mastermind/static/js/main.b6debd46.js",
     "index.html": "/mastermind/index.html",
     "main.fa694f0b.css.map": "/mastermind/static/css/main.fa694f0b.css.map",
-    "main.0c00b80c.js.map": "/mastermind/static/js/main.0c00b80c.js.map"
+    "main.b6debd46.js.map": "/mastermind/static/js/main.b6debd46.js.map"
   },
   "entrypoints": [
     "static/css/main.fa694f0b.css",
-    "static/js/main.0c00b80c.js"
+    "static/js/main.b6debd46.js"
   ]
 }
