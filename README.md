@@ -1,6 +1,6 @@
 # A version of Mastermind in React
 
-Watch the code deployed on [GitHub Pages](https://exilic.github.io/mastermind/).
+Watch the code deployed on [GitHub Pages](https://tobisengberg.github.io/mastermind/).
 
 ## Game function
 
